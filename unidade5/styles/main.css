@@ -1,0 +1,147 @@
+
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+    margin: 0;
+    padding: 0; 
+}
+
+
+header {
+    width: 100%;
+    background-color: #fff;
+}
+header h1 {
+    color: #000;
+    font-family: 'Open Sans';
+    font-size: 34px;
+    font-weight: 700;
+}
+header p{
+    margin-top: 1em;
+    font-size: 24px;
+
+}
+
+#footer{
+    /* max-width: 100vw; */
+    margin-top: 5em;
+    margin-bottom: 1em;
+}
+#footer img {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.timeline {
+    border-left: 4px solid #C4C4C4;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;    
+    background: #fff;
+    color: #E74C3C; 
+    margin: 50px auto;  
+    letter-spacing: 0.5px;   
+    position: relative;
+    line-height: 1.4em;
+    font-size: 1.03em;   
+    padding: 50px;   
+    list-style: none;
+    text-align: left;  
+    font-weight: 100;  
+    max-width: 80%; 
+}  
+.timeline h1 {
+    letter-spacing: 1.5px;
+    font-weight: 100;
+    font-size: 1.4em;    
+}
+
+.timeline h2, h3 {
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+.event {
+    
+    padding-bottom: 2px;
+    margin-bottom: 1.5em;  
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* .event:last-of-type { 
+    padding-bottom: 0;
+    margin-bottom: 0; 
+    border: none;      
+} */
+
+.event:before, .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.event:before {
+    left: -217.5px;    
+    color: #E74C3C;    
+    content: attr(data-date);
+    text-align: right;
+    font-weight: 100;    
+    font-size: 0.9em;
+    min-width: 120px;
+}
+
+.event:after {
+    /* box-shadow: 0 0 0 4px #E74C3C;     */
+    left: -62px;        
+    background: #E74C3C;    
+    border-radius: 50%;  
+    height: 20px;
+    width: 20px;
+    content: "";
+    top: 5px;
+}
+.card {
+    background: #DDCFCF;
+    border-radius: 5px;
+    padding: .5em;
+    
+}
+.card-body p {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+}
+.hidden {
+    display: none;
+}
+.text-area {
+    max-width: 70%;
+    padding-left: 1em;
+}
+.text-show {
+    display: block !important;
+    padding-top: .4em;
+    color: #000;
+    font-size: 16px;
+}
+.event-border {
+    padding: 10px;
+    border: 2px solid #E74C3C;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
