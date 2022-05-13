@@ -14,7 +14,7 @@ body {
 }
 
 nav, footer{
-    background-color: #ea9f44;
+    background-color: #ea9f4480;
     font-size: 16px !important;
 }
 
@@ -45,7 +45,7 @@ header h1 {
     border-top-right-radius: 4px;    
     background: #fff;
     color: #E74C3C; 
-    margin: 50px auto;  
+    margin: auto;
     letter-spacing: 0.5px;   
     position: relative;
     line-height: 1.4em;
